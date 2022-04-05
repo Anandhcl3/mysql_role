@@ -1,5 +1,4 @@
 ---
-  tasks:
   - name: Install mysql
     yum:
       name: mysql
