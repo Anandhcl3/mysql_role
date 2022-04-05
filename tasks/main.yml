@@ -1,0 +1,14 @@
+---
+  tasks:
+  - name: Install mysql
+    yum:
+      name: mysql
+      state: present
+
+  - name: Start mysql service
+    service:
+      name: mysqld
+      state: restarted
+   
+    
+
